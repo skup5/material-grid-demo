@@ -1,0 +1,11 @@
+
+
+.mat-grid-list {
+  height: calc(100vh - 56px - 56px);
+  /*height: 100%;*/
+  /*flex: 1 1 auto;*/
+}
+
+.mat-grid-tile {
+  background: #eee;
+}
