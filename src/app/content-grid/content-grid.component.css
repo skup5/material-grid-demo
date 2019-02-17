@@ -1,4 +1,6 @@
-
+main {
+  flex: 1 1 auto;
+}
 
 .mat-grid-list {
   height: calc(100vh - 56px - 56px);
@@ -8,4 +10,9 @@
 
 .mat-grid-tile {
   background: #eee;
+}
+
+figure.mat-figure {
+  align-items: flex-start;
+  justify-content: flex-start;
 }

@@ -1,0 +1,25 @@
+main {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+  min-height: calc(100vh - 56px - 56px);
+  /*height: 100%*/
+}
+
+.myContainer {
+  /*height: 100%;*/
+  flex: 1 1 auto;
+}
+
+.myCol {
+  /*height: 100%;*/
+  padding: 5px;
+}
+
+.myCol-2 {
+  background: #eee;
+}
+
+.myCol-1, .myCol-3 {
+  background: #ddd;
+}

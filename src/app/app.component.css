@@ -13,4 +13,7 @@ footer {
 
 }
 
-
+.header-flex, .footer-flex {
+  display: flex;
+  flex-direction: row;
+}

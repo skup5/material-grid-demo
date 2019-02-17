@@ -2,8 +2,24 @@
   <mat-grid-list [cols]="contentCols"
   rowHeight="fit" gutterSize="0">
   <!-- (window:resize)="onResize($event)"  -->
-    <mat-grid-tile>1</mat-grid-tile>
-    <mat-grid-tile>2</mat-grid-tile>
-    <mat-grid-tile>3</mat-grid-tile>
+
+    <mat-grid-tile *ngFor="let item of [1,2,3]">
+
+      <mat-grid-tile-header>
+        Grid header {{item}}
+      </mat-grid-tile-header>
+
+      <mat-card>
+        <mat-card-content>
+          Simple card
+        </mat-card-content>
+      </mat-card>
+
+      <mat-grid-tile-footer>
+        Grid footer {{item}}
+      </mat-grid-tile-footer>
+
+    </mat-grid-tile>
+
   </mat-grid-list>
 </main>
